@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab9d0ff-ad87-492b-87a3-3205023cff06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/com/company/MenuTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/com/company/MyFileTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Input.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Output.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/MyFile.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/MyFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShiraAsis.iml" afterPath="$PROJECT_DIR$/ShiraAsis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Decryption.java" afterPath="$PROJECT_DIR$/src/com/company/Decryption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Encryption.java" afterPath="$PROJECT_DIR$/src/com/company/Encryption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Menu.java" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/MyFile.java" afterPath="$PROJECT_DIR$/src/com/company/MyFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Operation.java" afterPath="$PROJECT_DIR$/src/com/company/Operation.java" />
-    </list>
+    <list default="true" id="8ab9d0ff-ad87-492b-87a3-3205023cff06" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -692,7 +679,7 @@
       <workItem from="1488362004647" duration="46000" />
       <workItem from="1488362269010" duration="10000" />
       <workItem from="1489481374790" duration="15853000" />
-      <workItem from="1489562571334" duration="12821000" />
+      <workItem from="1489562571334" duration="12888000" />
     </task>
     <task id="LOCAL-00001" summary="ex1">
       <created>1488361190827</created>
@@ -720,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51789000" />
+    <option name="totallyTimeSpent" value="51856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
