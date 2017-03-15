@@ -13,6 +13,14 @@ public class MyFile {
         file = new File(pathname);
     }
 
+    public File getFile() {
+        return file;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
+    }
+
     public boolean checkMyFile() {
         if (file.exists() && (file.isFile()))
             return true;

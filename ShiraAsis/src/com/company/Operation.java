@@ -5,5 +5,7 @@ package com.company;
  */
 public interface Operation {
 
-    public void en_dec_cryption_1(MyFile file);
+    public String en_dec_cryption_1(MyFile file);
+    public void byKey(MyFile file, int key);
+    public MyFile createFile(String begin);
 }
