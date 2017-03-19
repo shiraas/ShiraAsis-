@@ -9,6 +9,8 @@ public class MyFile {
 
     private File file;
 
+
+
     public MyFile(String pathname) {
         file = new File(pathname);
     }

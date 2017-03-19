@@ -1,11 +1,5 @@
 package com.company;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Scanner;
-
+import java.util.Random;
 /**
  * Created by hackeru on 2/28/2017.
  */
@@ -16,89 +10,102 @@ public class Menu {
     Output output;
 
 
-    public Menu(Output output) {
+    public Menu(Input input, Output output) {
         this.output = output;
-    }
-
-    public Menu(Input input) {
-
         this.input = input;
     }
 
     public void start() {
-        output.output("Enter a file path: ");
-        //System.out.println("Enter a file path: ");
-        //String path = readInput();
-        String path = input.input();
-        MyFile myFile = new MyFile(path);
-        if (myFile.checkMyFile())
-            printMenu(myFile);
-        else {
-            //System.out.println("The file doesn't exist, try again");
-            output.output("The file doesn't exist, try again");
-            start();
-        }
-
-
-    }
-
-    private void printMenu(MyFile file) {
-        output.output("please choose:\n" +
-                                "please choose:\n"+
-                                "0. return to menu\n"+
-                                "1. decryption\n"+
-                                "2. encryption\n"+
-                                "3. exit\n"+
-                                "your choice: \n");
-        //System.out.println("please choose:");
-        //System.out.println("0. return to menu");
-        //System.out.println("1. decryption");
-        //System.out.println("2. encryption");
-        //System.out.println("3. exit");
-        //System.out.println("your choice: ");
-        selectUser(file);
-
-    }
-
-    private void selectUser(MyFile file) {
-        //String select = readInput();
+        printMenu();
         String select = input.input();
-        operationBySelect(select,file);
-
+        operationBySelect(select);
     }
 
-    /*private String readInput() {
-        String input = null;
-        BufferedReader bufferedReader = new BufferedReader(
-                new InputStreamReader(System.in));
-        try {
-            input = bufferedReader.readLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return input;
-    }*/
 
-    public void operationBySelect(String select, MyFile file){
-        Decryption decryption = new Decryption();
-        Encryption encryption = new Encryption();
+
+    public MyFile getPath() {
+        output.output("Enter a file path: ");
+        String path = input.input();
+        if (path == "3")
+            return null;
+        MyFile myFile = new MyFile(path);
+        if (!myFile.checkMyFile()){
+            output.output("The file doesn't exist.\n press 3 to exit or");
+            getPath();
+        }
+            return myFile;
+    }
+
+    private void printMenu(/*MyFile file*/) {
+        output.output("please choose:\n" +
+                        "0. return to menu\n"+
+                        "1. encryption\n"+
+                        "2. decryption\n"+
+                        "3. exit\n"+
+                        "your choice: \n");
+    }
+
+
+
+    public void operationBySelect(String select){
+        //Decryption decryption = new Decryption();
+        //Encryption encryption = new Encryption();
+        MyFile file;
         switch (select) {
             case "0":
                 start();
                 break;
             case "1":
-                decryption.en_dec_cryption_1(file);
+                file = getPath();
+                if (file == null)
+                    return;
+                encryption(file);
+                output.output("Encryption succeeded \n");
+                start();
                 break;
             case "2":
-                encryption.en_dec_cryption_1(file);
+                file = getPath();
+                if (file == null)
+                    return;
+                decryption(file);
+                output.output("Decryption succeeded \n");
+                start();
                 break;
             case "3":
                 return;
             default:
-                //System.out.println("Key does not exist");
-                output.output("Key does not exist");
-                printMenu(file);
+                output.output("Key does not exist \n");
+                start();
 
+        }
+    }
+
+    public int randomNum(){
+        Random random = new Random(System.currentTimeMillis());
+        return random.nextInt(255);
+    }
+
+    public void encryption(MyFile file){
+        int num = randomNum();
+        output.output("key: " + num);
+        Encryption en = new Caesar();
+        en.encrypt(file,num);
+    }
+
+    public void decryption(MyFile file){
+        Encryption de = new Caesar();
+        output.output("enter key:");
+        String num_string = input.input();
+        int num;
+        try {
+            num = Integer.parseInt(num_string);
+
+            de.decrypt(file, num);
+
+        }
+        catch (Exception e){
+            output.output("not number, try again");
+            decryption(file);
         }
     }
 }

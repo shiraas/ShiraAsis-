@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Created by hackeru on 3/14/2017.
  */
 class MyFileTest {
-    @BeforeEach
+  /*  @BeforeEach
     void setUp() {
         System.out.println("begin testing MyFile");
     }
@@ -19,7 +19,7 @@ class MyFileTest {
     @AfterEach
     void tearDown() {
         System.out.println("end testing MyFile");
-    }
+    }*/
     @Test
     void checkMyFile_notPath() {
         MyFile file = new MyFile("aa45415a");
