@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ScreenInterface s = new ScreenInterface();
-       Menu m = new Menu(s, s);
+        ScreenInterface screen = new ScreenInterface();
+       Menu m = new Menu(screen, screen);
         m.start();
     }
 }
