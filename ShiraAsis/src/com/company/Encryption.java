@@ -42,12 +42,13 @@ public abstract class Encryption {
             outputStream = new FileOutputStream(newFile.getFile());
             inputStream = new FileInputStream(file.getFile());
             int oneByte;
-            while ((oneByte = inputStream.read()) != -1) {
-                if (kind)
+            if (kind)
+                while ((oneByte = inputStream.read()) != -1)
                     outputStream.write(encrypt(oneByte, key));
-                else
+            else
+                while ((oneByte = inputStream.read()) != -1)
                     outputStream.write(decrypt(oneByte, key));
-            }
+
             finish();
         } catch (FileNotFoundException e) {
             e.getMessage();
