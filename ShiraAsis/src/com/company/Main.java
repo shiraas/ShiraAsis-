@@ -9,6 +9,6 @@ public class Main {
 	// write your code here
         ScreenInterface screen = new ScreenInterface();
        Menu m = new Menu(screen, screen);
-        m.start();
+        m.startMenu();
     }
 }
