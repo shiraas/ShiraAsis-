@@ -6,9 +6,10 @@ import java.util.Random;
 
 public class Menu implements Encryption.EncryptionListener {
 
-    public static final Key key = new RandomKey();
-    Input input;
-    Output output;
+    private Input input;
+    private Output output;
+
+    private long time;
 
     public Menu(Input input, Output output) {
         this.output = output;
@@ -27,45 +28,41 @@ public class Menu implements Encryption.EncryptionListener {
                         "1. encryption\n" +
                         "2. decryption\n" +
                         "3. exit\n" +
-                        "your choice: \n");
+                        "your choice:");
     }
 
     public void operationBySelect(State select){
         MyFile file;
         switch (select) {
             case MENU:
-                startMenu();
                 break;
             case ENCRYPTION:
                 file = getPath();
                 if (file == null)
-                    return;
-                encryption(file);
-                startMenu();
+                    break;
+                encrypt_decrypt(file,true);
                 break;
             case DECRYPTION:
                 file = getPath();
                 if (file == null)
-                    return;
-                decryption(file);
-                startMenu();
+                   break;
+                encrypt_decrypt(file, false);
                 break;
             case EXIT:
                 return;
             default:
-                output.output("Key does not exist \n");
-                startMenu();
+                output.output("choice does not exist \n");
+
 
         }
+        startMenu();
     }
+
     public MyFile getPath() {
         output.output("Enter a file path: ");
         String path = input.input();
-        if (path == "0")//return menu
-        {
-            startMenu();
+        if (path.equals(String.valueOf(State.MENU.ordinal())))
             return null;
-        }
         MyFile myFile = new MyFile(path);
         if (!myFile.checkMyFile()){
             output.output("The file doesn't exist.\n press 0 to menu or");
@@ -74,62 +71,66 @@ public class Menu implements Encryption.EncryptionListener {
         return myFile;
     }
 
-
-    public void encryption(MyFile file){
-
+    public int getKey(){
         Key key = new RandomKey();
-        output.output("key: " + key.getKey());
-
-        if (operation( true, key.getKey(), file) == 1)
-            output.output("Encryption succeeded \n");
+        output.output("key: " + key.getKey()+"\n");
+        return key.getKey();
     }
 
-    public void decryption(MyFile file){
-        boolean flag = true;
-        while (flag) {
-
+    public int setKey(){
+        boolean askNumber = true;
+        int key = 0;
+        while (askNumber) {
             output.output("enter key:");
             String key_string = input.input();
-            int key;
+
             try {
                 key = Integer.parseInt(key_string);
-                flag = false;
-                if (operation(false, key, file) == 1)
-                    output.output("Decryption succeeded \n");
-
-            } catch (Exception e) {
+                askNumber = false;
+            } catch (NumberFormatException e) {
                 output.output("not number, try again");
             }
         }
-
+        return key;
     }
-    public AlgorithmKind getAlgorithmKind(){
-        AlgorithmKind algorithmKind = null;
-        while (algorithmKind == null) {
-            printAlgorithmsKind();
-            String select = input.input();
-            if (select == "0")
-                break;
-            algorithmKind = AlgorithmKind.getAlgorithmKind(select);
-            if (algorithmKind == null)
-                output.output("Key does not exist\npress 0 to menu or");
-            else
-                return algorithmKind;
 
+    public void encrypt_decrypt(MyFile file, boolean ifEncrypt){
+        boolean ifReverse = true;
+        AlgorithmKind algorithmKind = chooseAlgorithmKind(ifReverse);
+        if (algorithmKind.equals(AlgorithmKind.REVERSE)){
+            algorithmKind = chooseAlgorithmKind(false);
         }
-        return null;
+        else
+            ifReverse = false;
+        int key;
+        if (ifEncrypt)
+            key = getKey();
+        else
+            key =setKey();
+        if ((algorithmKind.equals(AlgorithmKind.MULTIPLICATION)) && (key%2 == 0))
+            key = key +1;
 
+
+        if (operation(ifEncrypt, key, algorithmKind, file,ifReverse)) {
+            if (ifEncrypt)
+                output.output("Encryption succeeded \n");
+            else
+                output.output("Decryption succeeded \n");
+        }
+        else
+            output.output("fail");
     }
-    public AlgorithmKind getAlgorithmKindWithoutReverse(){
+
+    public AlgorithmKind chooseAlgorithmKind(boolean ifReverse){
+
         AlgorithmKind algorithmKind = null;
         while (algorithmKind == null) {
-            printAlgorithmsKindWithoutReverse();
+            printAlgorithmsKind(ifReverse);
             String select = input.input();
-            if (select == "0")
+            if (select.equals(String.valueOf(State.MENU.ordinal())))
                 break;
             algorithmKind = AlgorithmKind.getAlgorithmKind(select);
-            if (algorithmKind == null || algorithmKind == AlgorithmKind.REVERSE)
-            {
+            if ((algorithmKind == null) || ((algorithmKind.equals(AlgorithmKind.REVERSE)) && (!ifReverse))) {
                 output.output("Key does not exist\npress 0 to menu or");
                 algorithmKind = null;
             }
@@ -139,53 +140,48 @@ public class Menu implements Encryption.EncryptionListener {
         }
         return null;
 
+
     }
 
-    public int operation(boolean kind, int key, MyFile file){
+    public boolean operation(boolean ifEncrypt, int key, AlgorithmKind algorithmKind, MyFile file, boolean ifReverse){
         Encryption encryption;
         AlgorithmFactory factory = new AlgorithmFactory();
-        AlgorithmKind algorithmKind = getAlgorithmKind();
         if (algorithmKind == null)
-            return -1;
-        else if (algorithmKind != AlgorithmKind.REVERSE)
+            return false;
+        else if (!ifReverse)
             encryption = factory.getAlgorithm(algorithmKind);
-        else {
-               algorithmKind = getAlgorithmKindWithoutReverse();
-               if (algorithmKind == null)
-                   return -1;
-               encryption = factory.getReverseAlgorithm(algorithmKind);
-           }
+        else
+            encryption = factory.getReverseAlgorithm(algorithmKind);
+
         encryption.setListener(this);
-        encryption.action(file, key,kind);
-        return 1;
+
+        return encryption.action(file, key, ifEncrypt);
 
     }
-    public void printAlgorithmsKind(){
+
+    public void printAlgorithmsKind(boolean ifReverse){
         output.output("please choose:\n" +
                         "a. Caesar Algorithm\n" +
                         "b. XOR Algorithm\n" +
-                        "c. Multiplication Algorithm\n" +
-                        "d. Reverse Algorithm\n" +
-                        "your choice: \n");
+                        "c. Multiplication Algorithm");
+        if (ifReverse)
+            output.output("d. Reverse Algorithm");
+        output.output("your choice:");
+
     }
-    public void printAlgorithmsKindWithoutReverse() {
-        output.output("please choose:\n" +
-                "a. Caesar Algorithm\n" +
-                "b. XOR Algorithm\n" +
-                "c. Multiplication Algorithm\n" +
-                "your choice: \n");
-    }
+
 
     @Override
     public void start() {
         output.output("start:");
-        output.output(System.nanoTime()+"");
+        time = System.nanoTime();
+        output.output(time+" nano seconds\n");
     }
 
     @Override
     public void finish() {
-        output.output("end");
-        output.output(System.nanoTime()+"");
+        time = System.nanoTime() - time;
+        output.output("end:\ntotal time: " +  time + " nano seconds\n");
 
     }
 }

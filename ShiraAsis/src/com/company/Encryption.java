@@ -9,6 +9,7 @@ public abstract class Encryption {
 
     EncryptionListener listener;
 
+
     public void setListener(EncryptionListener listener) {
         this.listener = listener;
     }
@@ -33,7 +34,7 @@ public abstract class Encryption {
             listener.finish();
     }
 
-    void action(MyFile file, int key, boolean kind){
+    boolean action(MyFile file, int key, boolean kind){
         start();
         OutputStream outputStream = null;
         InputStream inputStream = null;
@@ -50,13 +51,14 @@ public abstract class Encryption {
                     outputStream.write(decrypt(oneByte, key));
 
             finish();
-        } catch (FileNotFoundException e) {
-            e.getMessage();
         } catch (IOException e) {
             e.getMessage();
+            return false;
+
         } finally {
             newFile.closeOutput(outputStream);
             file.closeInput(inputStream);
         }
+        return true;
     }
 }

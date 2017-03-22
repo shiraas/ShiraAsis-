@@ -8,6 +8,9 @@ import java.io.*;
 public class Multiplication extends Encryption {
 
 
+
+
+
     @Override
     public int encrypt(int oneByte, int key) {
         oneByte = (key * oneByte) & 0x000000FF;

@@ -11,4 +11,6 @@ public class RandomKey implements Key {
         Random random = new Random(System.currentTimeMillis());
         return random.nextInt(255);
     }
+
+
 }

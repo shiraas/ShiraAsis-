@@ -5,4 +5,5 @@ package com.company;
  */
 public interface Key {
     public int getKey();
+
 }

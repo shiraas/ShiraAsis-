@@ -6,8 +6,6 @@ package com.company;
 public class AlgorithmFactory {
 
         public Encryption getAlgorithm(AlgorithmKind type){
-            if(type == null)
-                return null;
             switch (type){
                 case CAESAR:
                     return new Caesar();
