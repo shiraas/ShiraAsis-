@@ -8,15 +8,9 @@ import java.io.*;
 public abstract class Encryption <T> {
 
     EncryptionListener timeListener;
-    EncryptionListener messageListener;
-
-    public Encryption(EncryptionListener listener) {
-        this.timeListener = new TimeLisener();
-        messageListener = listener;
-    }
 
     public void setListener(EncryptionListener listener) {
-        this.messageListener = listener;
+        this.timeListener = listener;
     }
 
     public abstract int encrypt(int oneByte, T key);
@@ -26,15 +20,12 @@ public abstract class Encryption <T> {
     public void start () {
         if (timeListener != null)
             timeListener.start();
-        if (messageListener != null)
-            messageListener.start();
+
     }
 
     public void finish () {
         if (timeListener != null)
             timeListener.finish();
-        if (messageListener != null)
-            messageListener.finish();
     }
 
     /*public boolean action(FileHandler file, boolean isEncrypted){

@@ -25,7 +25,7 @@ class MenuTest {
         System.out.println("end testing MenuTest");
     }
 */
-    @Test
+ /*   @Test
     void startTest_select_0() {
         Input input = mock(Input.class);
         when(input.input()).thenReturn("0").thenReturn("3");
@@ -89,7 +89,7 @@ class MenuTest {
         orderedOutput.verify(output).output("not number, try again");
     }
     */
-    @Test
+  /*  @Test
     void startTest_select_2_NoCorrectPath() {
     }
     @Test
@@ -101,6 +101,6 @@ class MenuTest {
 
     @Test
     void operationBySelectTest() {
-    }
+    }*/
 
 }

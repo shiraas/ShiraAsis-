@@ -15,7 +15,7 @@ import Key.*;
  * Created by hackeru on 2/28/2017.
  */
 
-public class Menu implements EncryptionListener {
+public class Menu {
 
     private Input input;
     private Output output;
@@ -83,7 +83,42 @@ public class Menu implements EncryptionListener {
     }
 
 
-    /*public EncryptionKey getKeyfromUser(){
+    public  void encrypt_decrypt(FileHandler file, boolean isEncrypted) {
+        Double d = new Double(new XOR(), new Reverse(new Double(new Caesar(), new Multiplication())));
+        TimeListener timeListener = new TimeListener(this);
+        d.setListener(timeListener);
+
+        CoupleKey<Integer, CoupleKey<Integer, Integer>> key = getKey(isEncrypted, file);
+        FileEncryptionHandler fileEncryptionHandler = new FileEncryptionHandler(file, isEncrypted);
+        if (fileEncryptionHandler.fileEncryption(key, d,file)) {
+            if (isEncrypted)
+                output.output("Encryption succeeded \n");
+            else
+                output.output("Decryption succeeded \n");
+        } else {
+            output.output("fail");
+        }
+    }
+
+    public CoupleKey<Integer, CoupleKey<Integer, Integer>> getKey(boolean isEncrypted, FileHandler file){
+        CoupleKey<Integer, CoupleKey<Integer, Integer>> key;
+        FileKey<CoupleKey<Integer, CoupleKey<Integer, Integer>>> fileKey = new FileKey(file);
+        if (isEncrypted) {
+            Random randomNum = new Random(System.currentTimeMillis());
+            key = new CoupleKey<Integer, CoupleKey<Integer, Integer>>
+                    (randomNum.nextInt(255), new CoupleKey<Integer, Integer>(randomNum.nextInt(255), randomNum.nextInt(255)));
+            fileKey.setKey(key);
+        } else {
+            key = fileKey.getKey();
+        }
+        return key;
+    }
+public void printUser(String s){
+        output.output(s);
+
+}
+
+/*public EncryptionKey getKeyfromUser(){
         boolean askNumber = true;
         int key = 0;
         while (askNumber) {
@@ -100,51 +135,6 @@ public class Menu implements EncryptionListener {
         EncryptionKey encryptionKey = new EncryptionKey(key);
         return encryptionKey;
     }*/
-
-    public  void encrypt_decrypt(FileHandler file, boolean isEncrypted) {
-        Double d = new Double(new XOR(), new Reverse(new Double(new Caesar(), new Multiplication())));
-        d.setListener(this);
-        CaupleKey<Integer, CaupleKey<Integer, Integer>> key = getKey(isEncrypted, file);
-        FileEncryptionHandler fileEncryptionHandler = new FileEncryptionHandler(file, isEncrypted);
-        if (fileEncryptionHandler.fileEncryption(key, d,file)) {
-            if (isEncrypted)
-                output.output("Encryption succeeded \n");
-            else
-                output.output("Decryption succeeded \n");
-        } else {
-            output.output("fail");
-        }
-    }
-
-    public CaupleKey<Integer, CaupleKey<Integer, Integer>> getKey(boolean isEncrypted, FileHandler file){
-        CaupleKey<Integer, CaupleKey<Integer, Integer>> key;
-        FileKey<CaupleKey<Integer, CaupleKey<Integer, Integer>>> fileKey = new FileKey(file);
-        if (isEncrypted) {
-            Random randomNum = new Random(System.currentTimeMillis());
-            key = new CaupleKey<Integer, CaupleKey<Integer, Integer>>
-                    (randomNum.nextInt(255), new CaupleKey<Integer, Integer>(randomNum.nextInt(255), randomNum.nextInt(255)));
-            fileKey.setKey(key);
-        } else {
-            key = fileKey.getKey();
-        }
-        return key;
-    }
-
-    @Override
-    public void start() {
-        output.output("start:");
-        time = System.nanoTime();
-        output.output(time+" nano seconds\n");
-    }
-
-    @Override
-    public void finish() {
-        time = System.nanoTime() - time;
-        output.output("end:\ntotal time: " +  time + " nano seconds\n");
-
-    }
-
-
     /*public String chooseDoubleAlgorithmKind(){
         String select = null;
         while (select == null) {

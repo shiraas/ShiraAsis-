@@ -5,11 +5,11 @@ import java.io.Serializable;
 /**
  * Created by hackeru on 3/26/2017.
  */
-public class CaupleKey<T,K> implements Serializable {
+public class CoupleKey<T,K> implements Serializable {
     T key1;
     K key2;
 
-    public CaupleKey(T key1, K key2) {
+    public CoupleKey(T key1, K key2) {
         this.key1 = key1;
         this.key2 = key2;
     }

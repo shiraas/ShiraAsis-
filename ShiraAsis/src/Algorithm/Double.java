@@ -1,6 +1,7 @@
 package Algorithm;
 
-import Key.CaupleKey;
+import Key.CoupleKey;
+import Key.CoupleKey;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -8,7 +9,7 @@ import java.io.ObjectOutputStream;
 /**
  * Created by hackeru on 3/22/2017.
  */
-public class Double<T,K> extends Encryption<CaupleKey<T,K>> {
+public class Double<T,K> extends Encryption<CoupleKey<T,K>> {
 
     Encryption<T> encryption1;
     Encryption<K> encryption2;
@@ -19,13 +20,13 @@ public class Double<T,K> extends Encryption<CaupleKey<T,K>> {
     }
 
     @Override
-    public int encrypt(int oneByte, CaupleKey<T,K> key ) {
+    public int encrypt(int oneByte, CoupleKey<T,K> key ) {
 
         return encryption2.encrypt(encryption1.encrypt(oneByte, key.getKey1()),key.getKey2());
     }
 
     @Override
-    public int decrypt(int oneByte, CaupleKey<T,K> key) {
+    public int decrypt(int oneByte, CoupleKey<T,K> key) {
 
         return encryption1.decrypt(encryption2.decrypt(oneByte,key.getKey2()), key.getKey1());
     }
