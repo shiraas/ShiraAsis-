@@ -1,5 +1,7 @@
 package com.company;
 
+import Algorithm.*;
+
 /**
  * Created by hackeru on 3/20/2017.
  */

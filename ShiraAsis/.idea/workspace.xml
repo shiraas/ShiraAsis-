@@ -2,18 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab9d0ff-ad87-492b-87a3-3205023cff06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Encryptio.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Encryption.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Encryption.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Double.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Encryption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/EncryptionListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Reverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/TimeLisener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/File/FileEncryptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/File/FileHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Key/CaupleKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Key/FileKey.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Caesar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Encryption$EncryptionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Encryption.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Input.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Key.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/KeyException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Multiplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/MyFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Output.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/RandomKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Reverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/ScreenInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/XOR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/ShiraAsis/com/company/MyFileTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Encryption.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/MyFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/RandomKey.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Reverse.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Caesar.java" afterPath="$PROJECT_DIR$/src/Algorithm/Caesar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Input.java" afterPath="$PROJECT_DIR$/src/InputAndOutput/Input.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Key.java" afterPath="$PROJECT_DIR$/src/Key/Key.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/KeyException.java" afterPath="$PROJECT_DIR$/src/Key/KeyException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Multiplication.java" afterPath="$PROJECT_DIR$/src/Algorithm/Multiplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Output.java" afterPath="$PROJECT_DIR$/src/InputAndOutput/Output.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/ScreenInterface.java" afterPath="$PROJECT_DIR$/src/InputAndOutput/Screen.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/XOR.java" afterPath="$PROJECT_DIR$/src/Algorithm/XOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/AlgorithmFactory.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/AlgorithmFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Menu$1.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Menu$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Menu.class" afterPath="$PROJECT_DIR$/out/production/ShiraAsis/com/company/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/ShiraAsis/com/company/MenuTest.class" afterPath="$PROJECT_DIR$/out/test/ShiraAsis/com/company/MenuTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/com/company/MenuTest.java" afterPath="$PROJECT_DIR$/Test/com/company/MenuTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/com/company/MyFileTest.java" afterPath="$PROJECT_DIR$/Test/com/company/MyFileTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Encryption.java" afterPath="$PROJECT_DIR$/src/com/company/Encryption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Key.java" afterPath="$PROJECT_DIR$/src/com/company/Key.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/KeyException.java" afterPath="$PROJECT_DIR$/src/com/company/KeyException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Menu.java" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Multiplication.java" afterPath="$PROJECT_DIR$/src/com/company/Multiplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/RandomKey.java" afterPath="$PROJECT_DIR$/src/com/company/RandomKey.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,31 +66,65 @@
       <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="-2247">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="48" />
               <folding>
-                <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-                <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-                <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-                <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-                <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-                <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-                <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-                <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-                <element signature="method#operation#0;class#Menu#0" expanded="false" />
-                <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-                <element signature="method#start#0;class#Menu#0" expanded="false" />
-                <element signature="method#finish#0;class#Menu#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgorithmFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AlgorithmFactory.java">
+      <file leaf-file-name="TimeLisener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/TimeLisener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Caesar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/Caesar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Encryption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/Encryption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -67,9 +135,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -91,36 +159,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/User.java" />
-        <option value="$PROJECT_DIR$/src/com/company/FileOperations.java" />
-        <option value="$PROJECT_DIR$/src/com/company/PrintScreen.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Print.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Input.java" />
         <option value="$PROJECT_DIR$/src/com/company/Output.java" />
         <option value="$PROJECT_DIR$/src/com/company/SreenOutput.java" />
         <option value="$PROJECT_DIR$/src/com/company/ScreenInput.java" />
         <option value="$PROJECT_DIR$/src/com/company/ScreenOutput.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ScreenInterface.java" />
         <option value="$PROJECT_DIR$/src/com/company/Decryption.java" />
         <option value="$PROJECT_DIR$/src/com/company/Operation.java" />
-        <option value="$PROJECT_DIR$/Test/com/company/MyFileTest.java" />
         <option value="$PROJECT_DIR$/Test/com/company/MenuTest.java" />
         <option value="$PROJECT_DIR$/Test/com/company/CaesarTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyFile.java" />
         <option value="$PROJECT_DIR$/src/com/company/State.java" />
         <option value="$PROJECT_DIR$/src/com/company/AlgorithmKind.java" />
-        <option value="$PROJECT_DIR$/src/com/company/XOR.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Reverse.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Caesar.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/KeyException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Encryption.java" />
-        <option value="$PROJECT_DIR$/src/com/company/RandomKey.java" />
+        <option value="$PROJECT_DIR$/src/com/company/EncryptionListener.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Dauble.java" />
         <option value="$PROJECT_DIR$/src/com/company/Key.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FileKey.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/com/company/XOR.java" />
+        <option value="$PROJECT_DIR$/src/com/company/EncryptionKey.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Caesar.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ScreenInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MyFile.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Double.java" />
+        <option value="$PROJECT_DIR$/src/com/company/RandomKey.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/Key/EncryptionKey.java" />
+        <option value="$PROJECT_DIR$/src/InputAndOutput/Screen.java" />
+        <option value="$PROJECT_DIR$/src/InputAndOutput/Output.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/EncryptionListener.java" />
+        <option value="$PROJECT_DIR$/src/Key/KeyException.java" />
+        <option value="$PROJECT_DIR$/src/Key/CaupleKeys.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/XOR.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Caesar.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Double.java" />
+        <option value="$PROJECT_DIR$/src/Key/CaupleKey.java" />
+        <option value="$PROJECT_DIR$/src/Key/Key.java" />
+        <option value="$PROJECT_DIR$/src/Key/RandomKey.java" />
+        <option value="$PROJECT_DIR$/src/File/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/AlgorithmFactory.java" />
+        <option value="$PROJECT_DIR$/Test/com/company/MyFileTest.java" />
+        <option value="$PROJECT_DIR$/src/File/FileEncryptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/Key/FileKey.java" />
+        <option value="$PROJECT_DIR$/src/Key/KeyHandler.java" />
+        <option value="$PROJECT_DIR$/src/TimeLisener.java" />
         <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/TimeLisener.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Encryption.java" />
       </list>
     </option>
   </component>
@@ -134,6 +223,53 @@
     <option name="x" value="-2" />
     <option name="width" value="1924" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,11 +310,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
+              <option name="myItemId" value="Key" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InputAndOutput" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="File" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,10 +372,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShiraAsis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,9 +401,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mockito-all-1.9.5.jar/mockito-all-1.9.5.jar!/" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -224,12 +414,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hackeru.HACKERU3\Documents\GitHub\ShiraAsis-\ShiraAsis\src\InputAndOutput" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="MenuTest.startTest_select_1_correctPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -681,7 +874,11 @@
       <workItem from="1489992066662" duration="598000" />
       <workItem from="1489996553773" duration="11043000" />
       <workItem from="1490073877545" duration="14821000" />
-      <workItem from="1490159399354" duration="8356000" />
+      <workItem from="1490159399354" duration="19691000" />
+      <workItem from="1490251252223" duration="14890000" />
+      <workItem from="1490274496492" duration="3460000" />
+      <workItem from="1490506547221" duration="19732000" />
+      <workItem from="1490598856377" duration="14321000" />
     </task>
     <task id="LOCAL-00001" summary="ex1">
       <created>1488361190827</created>
@@ -733,7 +930,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133095000" />
+    <option name="totallyTimeSpent" value="196833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1056" extended-state="1" />
@@ -749,25 +946,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.040169135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,25 +1012,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Caesar.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Test/com/company/MenuTest.java</url>
-          <line>36</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Menu.java</url>
-          <line>140</line>
+          <line>162</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithm/Encryption.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithm/Encryption.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/File/FileEncryptionHandler.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -848,138 +1057,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-            <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-            <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-            <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-            <element signature="method#operation#0;class#Menu#0" expanded="false" />
-            <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-            <element signature="method#start#0;class#Menu#0" expanded="false" />
-            <element signature="method#finish#0;class#Menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#closeOutput#0;class#MyFile#0" expanded="false" />
-            <element signature="method#closeInput#0;class#MyFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-            <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-            <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-            <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-            <element signature="method#operation#0;class#Menu#0" expanded="false" />
-            <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-            <element signature="method#start#0;class#Menu#0" expanded="false" />
-            <element signature="method#finish#0;class#Menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#closeOutput#0;class#MyFile#0" expanded="false" />
-            <element signature="method#closeInput#0;class#MyFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Decryption.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Operation.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Encryptio.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-            <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-            <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-            <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-            <element signature="method#operation#0;class#Menu#0" expanded="false" />
-            <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-            <element signature="method#start#0;class#Menu#0" expanded="false" />
-            <element signature="method#finish#0;class#Menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#closeOutput#0;class#MyFile#0" expanded="false" />
-            <element signature="method#closeInput#0;class#MyFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Decryption.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Operation.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Encryptio.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,31 +1071,26 @@
         <state relative-caret-position="966">
           <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding>
-            <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-            <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-            <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-            <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-            <element signature="method#operation#0;class#Menu#0" expanded="false" />
-            <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-            <element signature="method#start#0;class#Menu#0" expanded="false" />
-            <element signature="method#finish#0;class#Menu#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyFile.java">
+    <entry file="file://$PROJECT_DIR$/src/File/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#closeOutput#0;class#MyFile#0" expanded="false" />
-            <element signature="method#closeInput#0;class#MyFile#0" expanded="false" />
+            <element signature="method#checkMyFile#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#openObjectOutput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#openObjectInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeObjectOutput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeObjectInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#writeToFile#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#readFromFile#0;class#FileHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1022,27 +1100,15 @@
     <entry file="file://$PROJECT_DIR$/../System Exercise/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/FileOperations.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/ScreenInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Screen.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/UserInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/ScreenOutput.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Decryption.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Operation.java" />
-    <entry file="file://$PROJECT_DIR$/Test/com/company/MyFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <marker date="1489911048086" expanded="false" signature="328:339" ph=" { " />
-            <marker date="1489911048086" expanded="false" signature="382:388" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/company/CaesarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,64 +1117,15 @@
         <state relative-caret-position="-861">
           <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1489913028209" expanded="false" signature="442:453" ph=" { " />
-            <marker date="1489913028209" expanded="false" signature="498:504" ph=" }" />
-            <marker date="1489913028209" expanded="false" signature="540:551" ph=" { " />
-            <marker date="1489913028209" expanded="false" signature="594:600" ph=" }" />
+            <marker date="1490518712434" expanded="false" signature="329:340" ph=" { " />
+            <marker date="1490518712434" expanded="false" signature="385:391" ph=" }" />
+            <marker date="1490518712434" expanded="false" signature="427:438" ph=" { " />
+            <marker date="1490518712434" expanded="false" signature="481:487" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Encryptio.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ScreenInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#closeOutput#0;class#MyFile#0" expanded="false" />
-            <element signature="method#closeInput#0;class#MyFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -1123,72 +1140,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/KeyException.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#137#138#0" expanded="false" />
-            <element signature="e#173#174#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="1953" column="0" lean-forward="false" selection-start-line="1953" selection-start-column="0" selection-end-line="1953" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Caesar.java">
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/XOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/RandomKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Key.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1201,39 +1171,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Multiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/EncryptionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/javafx-src.zip!/com/sun/javafx/css/CascadingStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/KeyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/EncryptionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/XOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <marker date="1490531235976" expanded="false" signature="623:633" ph=" { " />
+            <marker date="1490531235976" expanded="false" signature="679:685" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/RandomKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/company/MyFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AlgorithmFactory.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="82" column="15" lean-forward="true" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkMyFile#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#openObjectOutput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#openObjectInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeObjectOutput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#closeObjectInput#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#writeToFile#0;class#FileHandler#0" expanded="false" />
+            <element signature="method#readFromFile#0;class#FileHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/FileEncryptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/KeyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="126" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="15" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/FileKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#FileKey#0;class#FileKey#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key/CaupleKey.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputAndOutput/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Caesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/TimeLisener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="-2247">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="48" />
           <folding>
-            <element signature="method#Menu#0;class#Menu#0" expanded="false" />
-            <element signature="method#startMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#printMenu#0;class#Menu#0" expanded="false" />
-            <element signature="method#operationBySelect#0;class#Menu#0" expanded="false" />
-            <element signature="method#getPath#0;class#Menu#0" expanded="false" />
-            <element signature="method#getKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#setKey#0;class#Menu#0" expanded="false" />
-            <element signature="method#encrypt_decrypt#0;class#Menu#0" expanded="false" />
-            <element signature="method#operation#0;class#Menu#0" expanded="false" />
-            <element signature="method#printAlgorithmsKind#0;class#Menu#0" expanded="false" />
-            <element signature="method#start#0;class#Menu#0" expanded="false" />
-            <element signature="method#finish#0;class#Menu#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

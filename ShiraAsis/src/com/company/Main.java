@@ -1,13 +1,12 @@
 package com.company;
 
-import java.nio.ByteBuffer;
-import java.util.Random;
+import InputAndOutput.Screen;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ScreenInterface screen = new ScreenInterface();
+        Screen screen = new Screen();
        Menu m = new Menu(screen, screen);
         m.startMenu();
     }

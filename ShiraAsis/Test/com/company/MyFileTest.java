@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by hackeru on 3/14/2017.
  */
-class MyFileTest {
+class FileHandlerTest {
   /*  @BeforeEach
     void setUp() {
         System.out.println("begin testing MyFile");
@@ -20,7 +20,7 @@ class MyFileTest {
     void tearDown() {
         System.out.println("end testing MyFile");
     }*/
-    @Test
+    /*@Test
     void checkMyFile_notPath() {
         MyFile file = new MyFile("aa45415a");
         if (file.checkMyFile())
@@ -42,5 +42,5 @@ class MyFileTest {
         MyFile file = new MyFile("C:\\eclipse\\features\\org.eclipse.e4.rcp_1.4.1.v20160212-1350\\feature.xml");
         if (!file.checkMyFile())
             Assertions.fail("Path exists ");
-    }
+    }**/
 }
